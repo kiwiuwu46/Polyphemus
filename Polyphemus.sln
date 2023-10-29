@@ -34,17 +34,24 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{4FAAB5E4
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{95906F8E-04C3-49F0-96D5-D6B78A8FF9C9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polyphemus.Persistence", "src\Polyphemus.Persistence\Polyphemus.Persistence.csproj", "{21989EF5-2C88-4EAD-936A-D834F8AC408D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{21989EF5-2C88-4EAD-936A-D834F8AC408D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21989EF5-2C88-4EAD-936A-D834F8AC408D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21989EF5-2C88-4EAD-936A-D834F8AC408D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21989EF5-2C88-4EAD-936A-D834F8AC408D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{21989EF5-2C88-4EAD-936A-D834F8AC408D} = {52270E06-D3BB-4B8E-A261-377E460B5FD5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {732C3E99-FDF6-4748-A339-C3C162241038}
