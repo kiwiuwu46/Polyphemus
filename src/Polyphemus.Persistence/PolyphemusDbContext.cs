@@ -11,5 +11,19 @@ public class PolyphemusDbContext : DbContext
   {
   }
 
+  public PolyphemusDbContext()
+  {
+  }
+
   public DbSet<Patient> Patients { get; set; }
+
+  protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+  {
+    if (!optionsBuilder.IsConfigured)
+    {
+      optionsBuilder.UseSqlite("Data Source=:memory:;New=True;");
+    }
+
+    base.OnConfiguring(optionsBuilder);
+  }
 }
