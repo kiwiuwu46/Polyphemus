@@ -6,6 +6,11 @@
 
     <ItemGroup>
       <PackageReference Include="Kritikos.Configuration.Persistence.Contracts" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Polyphemus.Web.Models\Polyphemus.Web.Models.csproj" />
     </ItemGroup>
 
 </Project>
